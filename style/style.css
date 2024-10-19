@@ -1,0 +1,77 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  main {
+    padding:20px;
+  }
+  
+  .dashboard-cards {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #120d0d;
+    padding: 20px;
+    text-align: center;
+  }
+  .card1 {
+    background-color: white;
+    border: 1px solid #0b0707;
+    padding: 55px;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    text-align: center;
+    height: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #007bff;
+    width: 77%; /* Adjust based on task completion */
+  }
+  
+  .cotainer {
+    display:flex;
+  }
+
+  /* user css */
+  
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 4em 1em;
+    }
+    .container div {
+    background-color: white;
+    border: 1px solid #0b0707;
+    padding: 55px;
+    text-align: center;
+    }
+    .profilepic {
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+    }
+
+  
+  @media only screen and (max-widht:600px) {
+    html {
+        width: 90%
+    }
+  }
+
